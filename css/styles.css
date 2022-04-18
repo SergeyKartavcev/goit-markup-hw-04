@@ -143,7 +143,7 @@ padding-left: 93px;
 }
 
 .contacts-item {
-padding-right: 50px
+padding-right: 30px
 }
 
 .contacts-item:last-child{
@@ -156,6 +156,14 @@ padding-right: 50px
     width: 16px;
     height: 10px;
     background: #2196F3;;
+}
+
+
+.icon-mobil{
+    width: 10px;
+    height: 16px;
+    background: #2196F3;;
+    display: inline-block;
 }
 .contacts{
     display: flex;
@@ -279,13 +287,11 @@ color: var(--primary-bg-color);
 /* преимущества*/
 
 .advant-icon{
-    width: 32px;
-    height: 32px;
+    width: 270px;
+    height: 120px;
 }
 
-.fetures{
-    padding-top: 0;
-}
+
 .advant{
 display: flex;
 }
@@ -308,7 +314,7 @@ width: 270px;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     text-transform: uppercase;
-    margin-top: 94px;
+   
     }
 
 .advant-text{
@@ -403,6 +409,13 @@ img{
 }
     
     /* team */
+.advant-icon{
+    background-color: #FFFFFF1A;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right:  10px;
+ }   
 .team{
     background-color: var(--saction-bg-color);
     margin-top: 0;
@@ -438,7 +451,6 @@ text-align: center;
     display: flex;
 }
 .userpic-item{
-    /* padding-right: 30px; */
     background: var(--primary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -448,6 +460,23 @@ text-align: center;
 padding-right: 0;
 margin-right: 0;
 }
+
+/* clients */
+.client-company{
+    padding-top: 0;
+}
+.client{
+    display: flex;
+}
+
+.company{
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
 /* footer */
 .footer{
 padding-top: 60px;
@@ -509,6 +538,43 @@ padding-bottom: 60px;
     }
 
 
+.oll{
+    display: flex;
+}
+.ferst-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.second-content{
+    padding-top: 72px;
+    padding-left: 70px;
+}
+.title-icon{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+padding-bottom: 20px;
+}    
+
+.social-network{
+    display: flex;
+}    
+.footer-icon{
+background-color: #FFFFFF1A;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+margin-right:  10px;
+}
+.footer-icon:last-child{
+margin-right: 0;
+}
+
+.footer-icon:nth-child(2){
+    background-color: var(--primary-bg-color);
+}
 
 .container{
     width: 1200px;
