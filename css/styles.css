@@ -197,7 +197,7 @@ color: var(--primary-bg-color);
 .hero{
     /* background-color: var(--hero-bg-color); */
     text-align: center;
-    background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(0,255,0,0.5)),
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Img-overlay.jpg');
     max-width: 1600px;
     background-size: cover; 
@@ -287,8 +287,9 @@ color: var(--primary-bg-color);
 /* преимущества*/
 
 .advant-icon{
-    width: 270px;
-    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+   
 }
 
 
@@ -300,6 +301,10 @@ display: flex;
 .advant-element{
 padding-right: 30px;
 width: 270px;
+}
+
+.pictures{
+text-align: center;
 }
 
 .advant-element:nth-child(4n){
@@ -408,14 +413,26 @@ img{
     height: auto;
 }
     
-    /* team */
-.advant-icon{
-    background-color: #FFFFFF1A;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    margin-right:  10px;
+    /* team */ 
+
+ .social-network{
+     margin-left: 32px;
  }   
+
+ .social-item{
+    background-color: var(--primary-text-color);
+}
+
+ .social-icon{
+display: inline-flex;
+/* border-radius: 50%; */
+margin-right: 10px;
+color: var(--acent-text-color);
+ }
+
+
+
+
 .team{
     background-color: var(--saction-bg-color);
     margin-top: 0;
@@ -461,9 +478,20 @@ padding-right: 0;
 margin-right: 0;
 }
 
+
 /* clients */
 .client-company{
     padding-top: 0;
+}
+
+.client-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+margin-bottom: 50px;
 }
 .client{
     display: flex;
@@ -475,6 +503,7 @@ height: 92px;
 border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
+margin-right: 30px;
 }
 
 /* footer */
