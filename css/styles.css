@@ -56,8 +56,9 @@ padding: 0;
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    border-bottom: var(--primary-text-color);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC 
+    var(--primary-text-color);
+    
 }
 
 .hader{
@@ -229,13 +230,11 @@ color: var(--primary-bg-color);
     text-align: center;
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Img-overlay.jpg');
-    margin: auto;
+    margin: 0 auto;
     max-width: 1600px;
-    width: 100%;
     height: 600px;
-    background-size: cover; 
+    background-size: cover;
 }
-   
    
 .hero-title{
     width: 696px;
