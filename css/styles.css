@@ -469,8 +469,10 @@ background-color: var(--primary-bg-color);
 .social-icon{
 width: 20px;
 height: 20px;
-padding: 12px;
 fill: #AFB1B8;
+text-align: center;
+margin-left: 12px;
+margin-top: 12px;
 }
 
 .social-icon:hover{
