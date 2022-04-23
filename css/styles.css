@@ -165,10 +165,9 @@ padding-left: 93px;
     
 
 .symbol-defs{
-    width: 16px;
-    height: 12px;
+    display: inline-block;
     fill: #757575;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .symbol-defs:hover{
@@ -185,7 +184,7 @@ padding-left: 93px;
     height: 16px;
     display: inline-block;
     fill: #757575;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 
