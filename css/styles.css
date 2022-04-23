@@ -226,14 +226,16 @@ color: var(--primary-bg-color);
 /* герой */
 
 .hero{
-    background-color: var(--hero-bg-color);
+    padding-top: 0;
+    padding-bottom: 0;
     text-align: center;
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Img-overlay.jpg');
-    margin: 0 auto;
     max-width: 1600px;
     height: 600px;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
    
 .hero-title{
@@ -245,9 +247,8 @@ color: var(--primary-bg-color);
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    margin: 0 auto;
+   padding-top: 200px;
     margin-bottom: 30px;
 }
 
@@ -543,25 +544,36 @@ margin-bottom: 50px;
     margin-left: -30px;
 }
 
-
-.company{
-border: 1px solid #AFB1B8;
-box-sizing: border-box;
-fill: #AFB1B8;
-width: 170px;
-height: 92px;
-border-radius: 4px;
-margin-left: 30px;
-display: flex;
-padding-top: 20px;
-padding-bottom: 20px;
+.client-logo{
+    display: flex;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    color: #AFB1B8;
+    margin-left: 30px;
+   
 }
 
+.client-logo:hover{
+    border-color: var(--primary-bg-color);
+}
+
+.client-logo:focus{
+    border-color: var(--primary-bg-color);
+}
+.company{
+fill: #AFB1B8;
+} 
+
 .company:hover{
-border-color: var(--primary-bg-color);
 fill: #2196F3;
 }
 
+.company:focus{
+    fill: #2196F3;
+    }
 
 /* footer */
 
