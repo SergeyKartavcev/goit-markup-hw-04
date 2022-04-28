@@ -26,6 +26,8 @@ body {
 a{
     text-decoration: none;
 }
+
+
 button{
     border: none;
 }
@@ -173,7 +175,7 @@ padding-left: 93px;
 } 
 .post{
     display: inline-block;
-    fill: #757575;
+    fill: currentColor; 
     margin-right: 10px;
     padding: 0;
 }
@@ -182,6 +184,7 @@ padding-left: 93px;
 .icon-mobil{
     width: 10px;
     height: 16px;
+    fill: currentColor; 
     display: inline-block;
     margin-right: 10px;
 }
@@ -200,11 +203,12 @@ padding-left: 93px;
 
 
 .link-contacts:hover
-/* .link-contacts:focus */
 {
 color: var(--primary-bg-color);   
 }
-
+.link-contacts:focus{
+color: var(--primary-bg-color); 
+}
 
 /* герой */
 
@@ -438,6 +442,7 @@ img{
 .social-icon{
 width: 20px;
 height: 20px;
+color: var(--primary-bg-color); 
 text-align: center;
 margin-left: 12px;
 margin-top: 12px;
@@ -457,10 +462,13 @@ background-color: var(--primary-text-color);
 
 
 .link-social:hover
-/* .link-social:focus  */
 {
 fill: #FFFFFF;
 background-color: var(--primary-bg-color);
+}
+.link-social:focus{
+    fill: #FFFFFF;
+    background-color: var(--primary-bg-color);    
 }
 
 .team{
@@ -543,20 +551,20 @@ margin-bottom: 50px;
 }
 
 .company{
-    fill: #AFB1B8;
+    fill: currentColor;
     }  
     
 
 
-
-
 .client-logo:hover
-/* .client-logo:focus  */
 {   
-     border-color: var(--primary-bg-color);
-    fill: var(--primary-bg-color);
+    border-color: var(--primary-bg-color);
+    color: var(--primary-bg-color);
 }
-
+.client-logo:focus{
+    border-color: var(--primary-bg-color);
+    color: var(--primary-bg-color);
+}
 
 
 /* footer */
@@ -569,7 +577,7 @@ margin-bottom: 50px;
 }
 
 
- .container.oll{
+ .oll{
     display: flex;
     align-items: baseline; 
 }
@@ -609,6 +617,8 @@ margin-bottom: 50px;
    padding-bottom: 0;
     }
 
+
+
 .footer-contacts:hover{
 color: var(--primary-bg-color);
         }
@@ -617,7 +627,13 @@ color: var(--primary-bg-color);
 color: var(--primary-bg-color);
 }        
 
+.location:hover{
+    color: var(--primary-bg-color);
+}
 
+.location:focus{
+    color: var(--primary-bg-color);
+}
 .second-content{
     margin-left: 70px;
 }
@@ -656,9 +672,12 @@ margin-right: 0;
     padding: 0; 
    
 }
-.icon:hover
-{background-color: var(--primary-bg-color);}
-.icon:focus{background-color: var(--primary-bg-color);}
+.icon:hover{
+    background-color: var(--primary-bg-color);
+}
+.icon:focus{
+    background-color: var(--primary-bg-color);
+}
 
 .centr-icon{
     fill: #FFFFFF;
